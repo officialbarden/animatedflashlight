@@ -1,0 +1,20 @@
+{
+    "hand_animation_on_swap": false,
+    "model":{
+        "type":"range_dispatch",
+        "property":"custom_model_data",
+        "fallback":{
+            "type":"model",
+            "model":"item/poisonous_potato"
+        },
+        "entries":[
+            {
+                "threshold": 2100,
+                "model":{
+                    "type":"model",
+                    "model":"nightshifts:item/tools/flashlight/1"
+                }
+            }
+        ]
+    }
+}
